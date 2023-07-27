@@ -78,7 +78,7 @@ ssize_t get_input(info_t *info)
 			info->cmd_buf_type = CMD_NORM;
 		}
 
-		*buf_p = p; /
+		*buf_p = p;
 		return (_strlen(p));
 	}
 
